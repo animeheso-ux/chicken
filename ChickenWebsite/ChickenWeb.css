@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(orange,yellow);
+    opacity: 0.7;
+}
+
+
+.MainHeader {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(orange,red);
+}
+
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(green,lime);
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.rightimage {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    top: 0;
+}
+
+.leftimage {
+    position: absolute;
+    left:  0;
+    width: 150px;
+    height: 150px;
+    top : 0;
+}
+
+.centerimage {
+    position: relative;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    top : 0;
+}
